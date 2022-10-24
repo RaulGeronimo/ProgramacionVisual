@@ -493,6 +493,11 @@ body {
     width: 30px;
 }
 
+.footer__img:hover{
+    filter: opacity(.5);
+    transition: 0.5s;
+}
+
 /* Media queries */
 
 @media (max-width:800px){
