@@ -74,6 +74,12 @@ body {
     text-decoration: none;
 }
 
+.nav__links:hover{
+    text-decoration: overline;
+    color: #2091F9;
+    transition: 0.5s;
+}
+
 .nav__menu {
     margin-left: auto;
     cursor: pointer;
@@ -119,6 +125,11 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+}
+
+.cta:hover{
+    background-color: #0d4c88;
+    transition: 1s;
 }
 
 /* About */
